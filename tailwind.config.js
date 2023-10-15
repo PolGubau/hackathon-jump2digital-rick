@@ -1,5 +1,18 @@
-export const content = ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"];
-export const theme = {
-  extend: {},
+/** @type {import('tailwindcss').Config} */
+
+import { PolUITheme } from "pol-ui";
+
+const config = {
+  darkMode: "class",
+
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extends: {
+      PolUITheme,
+    },
+  },
+
+  plugins: [],
 };
-export const plugins = [];
+
+export default config;

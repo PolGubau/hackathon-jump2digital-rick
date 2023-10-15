@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.trackup {
+  --theme-white: 243, 246, 247;
+  --theme-black: 20, 15, 15;
+
+  --theme-primary: 42, 41, 69;
+  --theme-primary-inverted: 180, 188, 255;
+
+  --theme-secondary: 67, 93, 176;
+  --theme-secondary-inverted: 188, 187, 235;
+
+  --theme-accent: 240, 120, 36;
+  --theme-accent-inverted: 226, 78, 27;
+
+  --theme-success: 155, 200, 142;
+  --theme-success-inverted: 155, 200, 142;
+
+  --theme-danger: 255, 123, 123;
+  --theme-danger-inverted: 255, 123, 123;
+
+  --theme-info: 86, 202, 202;
+  --theme-info-inverted: 86, 202, 202;
+
+  font-family: "Inter", sans-serif;
+}
+.tech {
+  --theme-white: 243, 246, 247;
+  --theme-black: 20, 15, 15;
+
+  --theme-primary: 27, 149, 105;
+  --theme-primary-inverted: 180, 188, 255;
+
+  --theme-secondary: 67, 93, 176;
+  --theme-secondary-inverted: 188, 187, 235;
+
+  --theme-accent: 62, 255, 128;
+  --theme-accent-inverted: 62, 255, 128;
+
+  --theme-success: 155, 200, 142;
+  --theme-success-inverted: 155, 200, 142;
+
+  --theme-danger: 255, 123, 123;
+  --theme-danger-inverted: 255, 123, 123;
+
+  --theme-info: 86, 202, 202;
+  --theme-info-inverted: 86, 202, 202;
+
+  font-family: "Inter", sans-serif;
+}
