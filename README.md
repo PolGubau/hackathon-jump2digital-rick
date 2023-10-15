@@ -18,7 +18,7 @@ Esta aplicación web se ha desarrollado como parte de una hackathon con el objet
 ### Documentación
 - La pila tecnológica utilizada se detalla en el archivo `TECH_STACK.md`.
 - Las instrucciones para ejecutar el proyecto localmente se encuentran en el archivo `INSTALLATION.md`.
-- Puedes ver una demo de la aplicación en [este enlace](#) (enlace a la demo opcional).
+- Puedes ver una demo de la aplicación en [este enlace](https://hackathon-jump2digital-rick.vercel.app) (enlace a la demo opcional).
 
 ## Puntos Adicionales (Opcionales)
 
