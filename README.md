@@ -44,3 +44,6 @@ La aplicación cumple con los siguientes criterios de evaluación:
 Para ejecutar el proyecto localmente, sigue las instrucciones en el archivo `INSTALLATION.md` en el repositorio de Git.
 
 ¡Gracias por revisar nuestro proyecto! Esperamos que sea de tu agrado y que cumpla con los requisitos establecidos. ¡Buena suerte!
+
+### Sobre el error de commits
+Desafortunadamente he mezclado dos proyectos personales y parte de este proyecto fue subido a otro repositorio, por lo que los commits no son los correctos. Los cambios que se ven en el repositorio son los correctos, pero los commits no. Ya todo ha sido resuelto pero el árbol de commits ha quedado algo gracioso.
