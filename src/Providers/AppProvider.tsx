@@ -3,11 +3,12 @@ import { Colors, ModalProps, PopupsProvider, ToastProps, applyBgColor } from "po
 import { Router } from "@/Router";
 import { useTheme } from "@/hooks/useTheme";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { modalState, toastState } from "@/States";
+import ToastStateAtom from "@/States/toast_state";
+import ModalStateAtom from "@/States/modal_state";
 
 const AppProvider = (): React.JSX.Element => {
-	const [toast, setToast] = useRecoilState<ToastProps[]>(toastState);
-	const [modal, setModal] = useRecoilState<ModalProps>(modalState);
+	const [toast, setToast] = useRecoilState<ToastProps[]>(ToastStateAtom);
+	const [modal, setModal] = useRecoilState<ModalProps>(ModalStateAtom);
 
 	const { theme } = useTheme();
 	const queryClient = new QueryClient();

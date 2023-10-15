@@ -1,4 +1,4 @@
-import ModalStateAtom from "@/States/modal.state";
+import ModalStateAtom from "@/States/modal_state";
 import React from "react";
 import { useRecoilState } from "recoil";
 

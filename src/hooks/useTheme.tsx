@@ -1,4 +1,4 @@
-import ThemeStateAtom from "@/States/theme.state";
+import ThemeStateAtom from "@/States/theme_state";
 import { useRecoilState } from "recoil";
 
 export const useTheme = () => {
