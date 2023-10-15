@@ -6,9 +6,9 @@ import {
   ToastProps,
   applyBgColor,
 } from "pol-ui";
-import { Router } from "@/Router";
 import { useTheme } from "../hooks/useTheme";
 import { modalState, toastState } from "../states";
+import { Router } from "../Router";
 
 const AppProvider = (): React.JSX.Element => {
   const [toast, setToast] = useRecoilState<ToastProps[]>(toastState);
