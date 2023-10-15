@@ -3,16 +3,21 @@
 import { PolUITheme } from "pol-ui";
 
 const config = {
-  darkMode: "class",
+	darkMode: "class",
 
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extends: {
-      PolUITheme,
-    },
-  },
+	content: [
+		"./src/**/*.{js,ts,jsx,tsx}",
+		"./node_modules/@tremor/**/*.{js,ts,jsx,tsx}", // Tremor module
+	],
+	theme: {
+		transparent: "transparent",
+		current: "currentColor",
+		extends: {
+			PolUITheme,
+		},
+	},
 
-  plugins: [],
+	plugins: [],
 };
 
 export default config;

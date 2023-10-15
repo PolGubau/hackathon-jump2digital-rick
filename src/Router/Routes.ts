@@ -1,4 +1,8 @@
-export enum ROUTES {
-  ERROR404 = "*",
-  HOME = "/",
+export enum Routes {
+	ERROR404 = "*", //✅
+	HOME = "/", //✅
 }
+
+export const ROUTES = {
+	...Routes,
+};

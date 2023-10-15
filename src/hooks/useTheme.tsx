@@ -1,22 +1,23 @@
+import ThemeStateAtom from "@/States/theme.state";
 import { useRecoilState } from "recoil";
-import ThemeStateAtom from "../states/theme.state";
 
 export const useTheme = () => {
-  const [theme, setTheme] = useRecoilState(ThemeStateAtom);
+	const [theme, setTheme] = useRecoilState(ThemeStateAtom);
 
-  const toggleDarkMode = () => {
-    setTheme({
-      ...theme,
-      darkMode: !theme.darkMode,
-    });
-  };
+	const toggleDarkMode = () => {
+		const newState = !theme.darkMode;
+		setTheme({
+			...theme,
+			darkMode: newState,
+		});
+	};
 
-  const applyTheme = (newTheme: string) => {
-    setTheme({
-      ...theme,
-      theme: newTheme,
-    });
-  };
+	const applyTheme = (newTheme: string) => {
+		setTheme({
+			...theme,
+			theme: newTheme,
+		});
+	};
 
-  return { theme, applyTheme, toggleDarkMode };
+	return { theme, applyTheme, toggleDarkMode };
 };

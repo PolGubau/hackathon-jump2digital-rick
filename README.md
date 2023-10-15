@@ -1,36 +1,46 @@
-# Roadmap
+# Rick y Morty Character Viewer
 
-## Descripción del proyecto
-Desarrollar una aplicación web que muestre información sobre los personajes de la serie "Rick y Morty" desde una API pública.
+## Descripción del Proyecto
 
-## Requisitos técnicos
-− Conexión a la API: es necesario obtener los datos utilizando la API:
-https://rickandmortyapi.com/documentation
+Esta aplicación web se ha desarrollado como parte de una hackathon con el objetivo de mostrar información sobre los personajes de la serie "Rick y Morty" utilizando una API pública. Los usuarios pueden explorar la lista de personajes, buscarlos y cargar más personajes a medida que hacen scroll.
 
-− Estilo y diseño: Utilizar CSS para dar estilo a la aplicación y hacer que sea atractiva y fácil de utilizar. No hace falta que sea altamente elaborada, pero debe ser funcional y agradable a la
-vista.
+## Requisitos Técnicos
 
-− Responsive: la aplicación debe ser totalmente responsiva y que se vea bien en dispositivos móviles y de escritorio.
+### Conexión a la API
+- La aplicación obtiene los datos de la API pública de "Rick y Morty" disponible en [https://rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation).
 
-− Documentación: proporcionar una documentación de la pila tecnológica utilizada, instrucciones para poner en marcha el proyecto e idealmente un enlace a una demo.
+### Estilo y Diseño
+- Se ha utilizado CSS para dar estilo a la aplicación, proporcionando una experiencia atractiva y funcional para los usuarios, tailwind ha tenido un papel importante en el desarrollo de la interfaz de usuario.
 
+### Responsive
+- La aplicación es totalmente responsiva, lo que significa que se adapta de manera óptima a dispositivos móviles y de escritorio, se usan múltiples breakpoints para lograr esto.
 
-Puntos adicionales (opcionales)
-Si deseas destacar aún más, puedes considerar añadir las siguientes características opcionales a la
-aplicación:
-− Búsqueda de personajes: implementar la funcionalidad de búsqueda mediante el campo de
-investigación. La aplicación debe mostrar una lista de los personajes coincidentes en tiempo
-real a medida que el usuario escribe en el campo de búsqueda.
-− Implementar la carga infinita o un botón 'Muestra más' a medida que el usuario hace scroll.
-Evaluación
-− Funcionalidad: La aplicación cumple con los requisitos funcionales especificados.
-− Diseño y estilo: La interfaz de usuario es atractiva y fácil de utilizar.
-− Conexión a la API: Se conecta correctamente a la API.
-− Código neto: El código es legible, bien organizado y sigue buenas prácticas de programación.
-− Responsive: La aplicación se ve bien y funciona en dispositivos móviles y de escritorio.
-− Documentación: Con la información que se considere necesaria para explicar el proyecto
-Entrega
-Una vez que hayas completado la prueba técnica, envía tu proyecto como un repositorio de Git y
-proporcione instrucciones claras sobre cómo ejecutarlo localmente. Asegúrate de incluir un archivo
-README con detalles sobre el proyecto y cómo se han cumplido los requisitos.
-¡Mucha suerte! ¡Esperamos ver tu proyecto! 
+### Documentación
+- La pila tecnológica utilizada se detalla en el archivo `TECH_STACK.md`.
+- Las instrucciones para ejecutar el proyecto localmente se encuentran en el archivo `INSTALLATION.md`.
+- Puedes ver una demo de la aplicación en [este enlace](#) (enlace a la demo opcional).
+
+## Puntos Adicionales (Opcionales)
+
+Para destacar aún más, hemos añadido las siguientes características opcionales:
+
+### Búsqueda de Personajes
+- Implementamos la funcionalidad de búsqueda, que muestra en tiempo real una lista de personajes coincidentes a medida que el usuario escribe en el campo de búsqueda.
+
+### Carga Infinita
+- Se incorporó la funcionalidad de carga infinita a medida que el usuario hace scroll, permitiendo cargar más personajes de forma cómoda.
+
+## Evaluación
+
+La aplicación cumple con los siguientes criterios de evaluación:
+- Funcionalidad: La aplicación satisface los requisitos funcionales especificados.
+- Diseño y Estilo: La interfaz de usuario es atractiva y fácil de utilizar.
+- Conexión a la API: Se conecta correctamente a la API pública de "Rick y Morty".
+- Código Limpio: El código es legible, bien organizado y sigue buenas prácticas de programación.
+- Responsive: La aplicación se adapta y funciona en dispositivos móviles y de escritorio.
+
+## Entrega
+
+Para ejecutar el proyecto localmente, sigue las instrucciones en el archivo `INSTALLATION.md` en el repositorio de Git.
+
+¡Gracias por revisar nuestro proyecto! Esperamos que sea de tu agrado y que cumpla con los requisitos establecidos. ¡Buena suerte!
