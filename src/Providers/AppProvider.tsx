@@ -1,5 +1,5 @@
 import { useRecoilState } from "recoil";
-import { Colors, ModalProps, PopupsProvider, ToastProps, applyBgColor } from "pol-ui";
+import { Colors, ModalProps, PopupsProvider, applyBgColor } from "pol-ui";
 import { Router } from "@/Router";
 import { useTheme } from "@/hooks/useTheme";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
