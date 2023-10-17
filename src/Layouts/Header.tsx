@@ -1,4 +1,4 @@
-import { Filters, FiltersState } from "@/States/filters_state";
+import { Filters, FiltersState } from "@/Atoms/filters_state";
 import { siteConfig } from "@/config/site";
 import { useModal, useTheme } from "@/hooks";
 import {

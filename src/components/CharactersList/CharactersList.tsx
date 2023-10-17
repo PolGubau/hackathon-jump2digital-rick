@@ -4,7 +4,7 @@ import Character from "../Character/Character";
 import { useFetch } from "@/hooks";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { useRecoilValue } from "recoil";
-import { FiltersState } from "@/States/filters_state";
+import { FiltersState } from "@/Atoms/filters_state";
 
 const CharactersList = () => {
 	const filters = useRecoilValue(FiltersState);

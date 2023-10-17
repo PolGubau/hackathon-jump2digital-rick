@@ -1,4 +1,4 @@
-import { Filters, FiltersState } from "@/States/filters_state";
+import { Filters, FiltersState } from "@/Atoms/filters_state";
 import { Text, Image, Button, IconNames, Colors } from "pol-ui";
 import { useRecoilState } from "recoil";
 

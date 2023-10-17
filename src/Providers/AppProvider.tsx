@@ -3,7 +3,7 @@ import { Colors, ModalProps, PopupsProvider, applyBgColor } from "pol-ui";
 import { Router } from "@/Router";
 import { useTheme } from "@/hooks/useTheme";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import ModalStateAtom from "@/States/modal_state";
+import ModalStateAtom from "@/Atoms/modal_state";
 
 const AppProvider = (): React.JSX.Element => {
 	const [modal, setModal] = useRecoilState<ModalProps>(ModalStateAtom);
