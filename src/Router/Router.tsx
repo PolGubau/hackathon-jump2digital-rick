@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ROUTES } from "./Routes";
-import { HomePage } from "@/Pages";
 import Layout from "@/Layouts/Layout";
 import { NoFound } from "@/components";
+import { HomePage } from "@/pages";
 
 // Main router of the app, a simple wrapper for react-router-dom
 const Router = () => {
