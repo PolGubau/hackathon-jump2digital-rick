@@ -3,11 +3,9 @@ import { Colors, ModalProps, PopupsProvider, ToastProps, applyBgColor } from "po
 import { Router } from "@/Router";
 import { useTheme } from "@/hooks/useTheme";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import ToastStateAtom from "@/States/toast_state";
 import ModalStateAtom from "@/States/modal_state";
 
 const AppProvider = (): React.JSX.Element => {
-	const [toast, setToast] = useRecoilState<ToastProps[]>(ToastStateAtom);
 	const [modal, setModal] = useRecoilState<ModalProps>(ModalStateAtom);
 
 	const { theme } = useTheme();
@@ -21,7 +19,7 @@ const AppProvider = (): React.JSX.Element => {
 				} overflow-hidden max-w-[100vw] min-h-screen`}
 			>
 				<div className={`${applyBgColor(Colors.background)}  w-full min-h-screen `}>
-					<PopupsProvider modal={modal} setModal={setModal} toasts={toast} setToast={setToast}>
+					<PopupsProvider modal={modal} setModal={setModal} toasts={[]} setToast={() => null}>
 						<Router />
 					</PopupsProvider>
 				</div>
